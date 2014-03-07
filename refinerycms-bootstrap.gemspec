@@ -9,10 +9,10 @@ Gem::Specification.new do |s|
   s.date              = '2013-08-07'
   s.summary           = 'Bootstrap extension for Refinery CMS'
   s.require_paths     = %w(lib)
-  s.files             = Dir["{app,config,db,lib}/**/*"] + ["readme.md"]
+  s.files             = Dir['{app,config,db,lib}/**/*'] + ['readme.md']
 
   # Runtime dependencies
-  s.add_dependency             'refinerycms-core',    '~> 2.1.0'
-  s.add_dependency             'refinerycms-images',  '~> 2.1.0'
+  s.add_dependency             'refinerycms-core',    '> 2.1.0'
+  s.add_dependency             'refinerycms-images',  '> 2.1.0'
   s.add_runtime_dependency     'bootstrap-sass',      '>= 2.3.2.1'
 end
